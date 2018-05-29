@@ -58,8 +58,8 @@ def winner(board)
   return won?(board) == nil ? nil : board[winner[0]]
 end
 
-def full?(board)
-  full = board.detect do |i| i = " " puts i end ? false : true
-  puts full
-  return full
-end
+#def full?(board)
+#  full = board.detect do |i| i = " " puts i end ? false : true
+#  puts full
+#  return full
+#end
